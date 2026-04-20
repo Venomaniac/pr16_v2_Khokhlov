@@ -1,0 +1,16 @@
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\bin\Debug\pr16_v2_Khokhlov.exe.config
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\bin\Debug\pr16_v2_Khokhlov.exe
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\bin\Debug\pr16_v2_Khokhlov.pdb
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.csproj.AssemblyReference.cache
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\MainWindow.g.cs
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\App.g.cs
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov_MarkupCompile.cache
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov_MarkupCompile.lref
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\MainWindow.baml
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.g.resources
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.Properties.Resources.resources
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.csproj.GenerateResource.cache
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.csproj.CoreCompileInputs.cache
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.exe
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.pdb
+C:\Users\rodio\OneDrive\Desktop\Алгоритмизация\pr16_v2_Khokhlov\pr16_v2_Khokhlov\obj\Debug\pr16_v2_Khokhlov.exe.config

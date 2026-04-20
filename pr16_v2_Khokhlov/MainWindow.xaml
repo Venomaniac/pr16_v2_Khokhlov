@@ -1,0 +1,53 @@
+﻿<Window x:Class="pr16_v2_Khokhlov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr16_v2_Khokhlov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Content="Информация о студентах" FontSize="20" Background="Coral"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Фамилия" FontSize="15" Margin="10,0,0,0"/>
+                <Label Content="Группа" FontSize="15" Margin="430,0,10,10"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="txtInput" FontSize="15" ToolTip="Введите текст" Margin="10,0,0,20" Width="400" />
+                <ComboBox x:Name="cmbGroup" FontSize="15" Margin="100,0,10,20" Width="200">
+                    <ComboBoxItem Content="ПР-31"/>
+                    <ComboBoxItem Content="ПР-32"/>
+                    <ComboBoxItem Content="ПР-33"/>
+                    </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Фильтр" FontSize="15" Margin="366,0,10,10"/>
+                <Label Content="Сортировка" FontSize="15" Margin="145,0,10,10"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <DataGrid x:Name="lst_box" Margin="10,0,0,0" Height="150" Width="340" Grid.Row="3" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False"
+                  SelectionMode="Single"
+                          FontSize="15">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}" Width="170" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Группа" Binding="{Binding Group}" Width="170" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                    </DataGrid>
+                <TextBox x:Name="Filt_txt" Margin="15,0,0,120" FontSize="15" Height="28" Width="200" TextChanged="Filt_txt_TextChanged"/>
+                <ComboBox x:Name="Sort_cmb" FontSize="15" Width="200" Height="28" Margin="15,0,0,120" SelectionChanged="Sort_cmb_SelectionChanged">
+                    <ComboBoxItem Content="По алфавиту(А-Я)"/>
+                    <ComboBoxItem Content="По алфавиту(Я-А)"/>
+                    <ComboBoxItem Content="По группе"/>
+                </ComboBox>
+            </StackPanel>
+            <Button Content="Добавить в список" FontSize="15" Foreground="White" Click="Add_Click" Margin="576,0,0,0" Width="160" Background="Blue"/>
+            <Button Content="Удалить из списка" FontSize="15" Foreground="White" Width="160" Click="Delete_lst" Margin="576,7,0,0" Background="Red"/>
+            <Button FontSize="15" Foreground="White" Click="Clear_List" Background="Red" Content="Очистить список" Margin="576,7,0,0" Width="160"/>
+            <Button FontSize="15" Foreground="White" Click="Save_List" Background="Blue" Content="Сохранить список" Margin="576,7,0,0" Width="160"/>
+            <Button FontSize="15" Foreground="White" Click="Load_List" Background="Blue" Content="Загрузить список" Margin="576,7,0,0" Width="160"/>
+        </StackPanel>
+    </Grid>
+</Window>
