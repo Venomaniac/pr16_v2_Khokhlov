@@ -10,44 +10,55 @@
         <StackPanel Orientation="Vertical">
             <Label Content="Информация о студентах" FontSize="20" Background="Coral"/>
             <StackPanel Orientation="Horizontal">
-                <Label Content="Фамилия" FontSize="15" Margin="10,0,0,0"/>
-                <Label Content="Группа" FontSize="15" Margin="430,0,10,10"/>
+                <Label Content="Фамилия" FontSize="11" Margin="10,0,0,0"/>
+                <Label Content="Группа" FontSize="11" Margin="133,0,0,0"/>
+                <Label Content="Специальность" FontSize="11" Margin="133,0,0,0"/>
+                <Label Content="Дисциплина" FontSize="11" Margin="100,0,0,0"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBox x:Name="txtInput" FontSize="15" ToolTip="Введите текст" Margin="10,0,0,20" Width="400" />
-                <ComboBox x:Name="cmbGroup" FontSize="15" Margin="100,0,10,20" Width="200">
-                    <ComboBoxItem Content="ПР-31"/>
-                    <ComboBoxItem Content="ПР-32"/>
-                    <ComboBoxItem Content="ПР-33"/>
-                    </ComboBox>
+                <TextBox x:Name="txtInput" FontSize="11" ToolTip="Введите текст" Margin="10,0,0,20" Width="166" />
+                <TextBox x:Name="txtGroup" FontSize="11" Margin="25,0,10,20" Width="166"/>
+                <TextBox x:Name="txtSpec" FontSize="11" Margin="5,0,10,20" Width="166"/>
+                <TextBox x:Name="txtDisc" FontSize="11" Margin="5,0,10,20" Width="166"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label Content="Фильтр" FontSize="15" Margin="366,0,10,10"/>
-                <Label Content="Сортировка" FontSize="15" Margin="145,0,10,10"/>
+                <Label Content="Оценка" FontSize="11" Margin="10,0,0,0"/>
+                <Label Content="Фильтр" FontSize="11" Margin="310,0,0,0"/>
+                <Label Content="Сортировка" FontSize="11" Margin="134,0,0,0"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <DataGrid x:Name="lst_box" Margin="10,0,0,0" Height="150" Width="340" Grid.Row="3" 
-                  AutoGenerateColumns="False" 
-                  CanUserAddRows="False"
-                  SelectionMode="Single"
-                          FontSize="15">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}" Width="170" IsReadOnly="True"/>
-                        <DataGridTextColumn Header="Группа" Binding="{Binding Group}" Width="170" IsReadOnly="True"/>
-                    </DataGrid.Columns>
-                    </DataGrid>
-                <TextBox x:Name="Filt_txt" Margin="15,0,0,120" FontSize="15" Height="28" Width="200" TextChanged="Filt_txt_TextChanged"/>
-                <ComboBox x:Name="Sort_cmb" FontSize="15" Width="200" Height="28" Margin="15,0,0,120" SelectionChanged="Sort_cmb_SelectionChanged">
+                <TextBox x:Name="txtMark" FontSize="11" Margin="10,0,0,20" Width="166"/>
+                <TextBox x:Name="Filt_txt" Margin="190,0,0,20" FontSize="11" Width="166" TextChanged="Filt_txt_TextChanged"/>
+                <ComboBox x:Name="Sort_cmb" FontSize="11" Width="166" Margin="15,0,0,20" SelectionChanged="Sort_cmb_SelectionChanged">
                     <ComboBoxItem Content="По алфавиту(А-Я)"/>
                     <ComboBoxItem Content="По алфавиту(Я-А)"/>
                     <ComboBoxItem Content="По группе"/>
+                    <ComboBoxItem Content="По специальности" />
+                    <ComboBoxItem Content="По дисциплине" />
+                    <ComboBoxItem Content="По оценке (возрастание)" />
+                    <ComboBoxItem Content="По оценке (убывание)" />
                 </ComboBox>
             </StackPanel>
-            <Button Content="Добавить в список" FontSize="15" Foreground="White" Click="Add_Click" Margin="576,0,0,0" Width="160" Background="Blue"/>
-            <Button Content="Удалить из списка" FontSize="15" Foreground="White" Width="160" Click="Delete_lst" Margin="576,7,0,0" Background="Red"/>
-            <Button FontSize="15" Foreground="White" Click="Clear_List" Background="Red" Content="Очистить список" Margin="576,7,0,0" Width="160"/>
-            <Button FontSize="15" Foreground="White" Click="Save_List" Background="Blue" Content="Сохранить список" Margin="576,7,0,0" Width="160"/>
-            <Button FontSize="15" Foreground="White" Click="Load_List" Background="Blue" Content="Загрузить список" Margin="576,7,0,0" Width="160"/>
+            <StackPanel Orientation="Horizontal">
+                <DataGrid x:Name="lst_box" Margin="10,0,0,0" Height="150" Width="690" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False"
+                  SelectionMode="Single"
+                          FontSize="11">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}" Width="170" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Группа" Binding="{Binding Group}" Width="170" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Специальность" Binding="{Binding Specialty}" Width="120" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Дисциплина" Binding="{Binding Discipline}" Width="150" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Оценка" Binding="{Binding Grade}" Width="80" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+            <Button Content="Добавить в список" FontSize="11" Foreground="White" Click="Add_Click" Margin="576,0,0,0" Width="160" Background="Blue"/>
+            <Button Content="Удалить из списка" FontSize="11" Foreground="White" Width="160" Click="Delete_lst" Margin="576,7,0,0" Background="Red"/>
+            <Button FontSize="11" Foreground="White" Click="Clear_List" Background="Red" Content="Очистить список" Margin="576,7,0,0" Width="160"/>
+            <Button FontSize="11" Foreground="White" Click="Save_List" Background="Blue" Content="Сохранить список" Margin="576,7,0,0" Width="160"/>
+            <Button FontSize="11" Foreground="White" Click="Load_List" Background="Blue" Content="Загрузить список" Margin="576,7,0,0" Width="160"/>
         </StackPanel>
     </Grid>
 </Window>

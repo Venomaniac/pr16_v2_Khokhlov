@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodio\\OneDrive\\Desktop\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_Khokhlov\\",
+  "WorkspaceRootPath": "C:\\pr16_v2_Khokhlov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|C:\\Users\\rodio\\OneDrive\\Desktop\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_Khokhlov\\pr16_v2_khokhlov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|c:\\pr16_v2_khokhlov\\pr16_v2_khokhlov\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|solutionrelative:pr16_v2_khokhlov\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|c:\\pr16_v2_khokhlov\\pr16_v2_khokhlov\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|solutionrelative:pr16_v2_khokhlov\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|C:\\pr16_v2_Khokhlov\\pr16_v2_khokhlov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|solutionrelative:pr16_v2_khokhlov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|c:\\users\\rodio\\onedrive\\desktop\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_khokhlov\\pr16_v2_khokhlov\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|C:\\pr16_v2_Khokhlov\\pr16_v2_khokhlov\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9EDF84F9-D556-44FF-8052-37F9CFDB1C7C}|pr16_v2_Khokhlov\\pr16_v2_Khokhlov.csproj|solutionrelative:pr16_v2_khokhlov\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -43,26 +51,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\rodio\\OneDrive\\Desktop\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "pr16_v2_Khokhlov\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\rodio\\OneDrive\\Desktop\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml.cs",
-              "RelativeToolTip": "pr16_v2_Khokhlov\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowCIAAAAiAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\Student.cs",
+              "RelativeDocumentMoniker": "pr16_v2_Khokhlov\\Student.cs",
+              "ToolTip": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\Student.cs",
+              "RelativeToolTip": "pr16_v2_Khokhlov\\Student.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAiwNMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T09:57:42.135Z",
+              "WhenOpened": "2026-05-15T04:44:38.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\rodio\\OneDrive\\Desktop\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml",
               "RelativeDocumentMoniker": "pr16_v2_Khokhlov\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\rodio\\OneDrive\\Desktop\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u044F\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml",
+              "ToolTip": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml",
               "RelativeToolTip": "pr16_v2_Khokhlov\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T09:57:49.277Z",
+              "WhenOpened": "2026-04-21T07:17:25.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "pr16_v2_Khokhlov\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml.cs",
+              "RelativeToolTip": "pr16_v2_Khokhlov\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T07:17:11.355Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "495717b2-a87c-4f31-b9c9-b39822de4fdb",
+        "Display": 0,
+        "X": 101,
+        "Y": 418,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "pr16_v2_Khokhlov\\MainWindow.xaml",
+              "ToolTip": "C:\\pr16_v2_Khokhlov\\pr16_v2_Khokhlov\\MainWindow.xaml",
+              "RelativeToolTip": "pr16_v2_Khokhlov\\MainWindow.xaml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowCoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-15T05:10:39.212Z",
               "EditorCaption": ""
             }
           ]
